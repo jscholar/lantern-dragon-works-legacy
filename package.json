@@ -1,0 +1,11 @@
+{
+  "name": "lantern-dragon-works",
+  "version": "1.0.0",
+  "description": "Lantern Dragon Works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jin Cai",
+  "license": "ISC"
+}
