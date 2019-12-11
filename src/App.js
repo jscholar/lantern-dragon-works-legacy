@@ -1,10 +1,15 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+import Layout from './layout/Layout'
 
 class App extends React.Component{
     render() {
         return (
-            <div>
-            </div>
+            <Layout>
+              <Switch>
+              </Switch>
+            </Layout>
         )
     }
 }
