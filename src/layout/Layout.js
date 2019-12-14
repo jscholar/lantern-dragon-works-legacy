@@ -1,20 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Aux from './../components/hoc/Auxilliary.jsx';
+
+import NoPage from '../routes/NoPage/NoPage'
+
+import Navbar from './navigation/Navbar';
 
 import classes from './Layout.module.scss';
+
 class Layout extends React.Component {
 
   static propTypes = {
-
+    children: PropTypes.node
   };
 
   render() {
     return (
       <div className={classes.Layout}>
-        <div>
+        <header>
+        </header>
+        <main>
           {this.props.children}
-        </div>
+        </main>
       </div>
     );
   }

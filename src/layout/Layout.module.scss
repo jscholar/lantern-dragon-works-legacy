@@ -1,0 +1,10 @@
+@use "./../scss/breakpoints.mixin.scss";
+
+.Layout {
+    width: 100%;
+    
+    main {
+        padding: 0 50px;
+    }
+}
+
