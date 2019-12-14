@@ -13,4 +13,6 @@ const app = (
     </BrowserRouter>
 )
 
-ReactDOM.render(app, root);
+ReactDOM.render(app, root, () => {
+  console.log("App rendered to DOM");
+});

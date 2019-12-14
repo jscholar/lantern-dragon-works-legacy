@@ -1,3 +1,7 @@
+/**
+ * Webpack config for development
+ */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -14,6 +18,8 @@ module.exports = {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
         port: 9000,
+        open: true,
+        historyApiFallback: true,   // For functional page refreshes and get requests to routes in development mode
     },
     module: {
         rules: [
