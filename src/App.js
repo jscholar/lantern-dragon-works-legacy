@@ -2,8 +2,6 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Layout from './layout/Layout';
-import NoPage from './routes/NoPage/NoPage';
-import Credits from './routes/Credits/Credits';
 class App extends React.Component{
     render() {
         return (
