@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import NoPage from '../routes/NoPage/NoPage'
-
 import Navbar from './navigation/Navbar';
 
 import classes from './Layout.module.scss';
@@ -17,6 +15,7 @@ class Layout extends React.Component {
     return (
       <div className={classes.Layout}>
         <header>
+          <Navbar />
         </header>
         <main>
           {this.props.children}
